@@ -5,7 +5,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Seguridad
-SECRET_KEY = 'tu-secret-key-aqui'  # cambiala por una segura
+SECRET_KEY = 'Leo44058848Leo.com.ar.44058848'
 DEBUG = False
 ALLOWED_HOSTS = [
     "nonstop-backend-gxha.onrender.com",
