@@ -6,8 +6,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Seguridad
 SECRET_KEY = 'tu-secret-key-aqui'  # cambiala por una segura
-DEBUG = True
-ALLOWED_HOSTS = []
+DEBUG = False
+ALLOWED_HOSTS = [
+    "nonstop-backend-gxha.onrender.com",
+]
 
 # Aplicaciones instaladas
 INSTALLED_APPS = [
