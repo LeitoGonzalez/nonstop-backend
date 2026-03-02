@@ -13,10 +13,8 @@ urlpatterns = [
     path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
 
-    # users (tu app)
     path('api/', include('users.urls')),
 
-    # allauth (opcional por ahora)
     path('accounts/', include('allauth.urls')),
 
     path("", include("users.urls")),
